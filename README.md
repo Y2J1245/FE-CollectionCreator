@@ -41,7 +41,7 @@ Pre-requisites and Setup:
   Enter the name for the output file (without extension). Example: Tecmo Super Bowl. This is the name of the .cfg that will be generated. The script will automatically prepend "custom-" to your choice. Its recommended you keep track of this entry (case sensitive) if you intend adding custom artwork later.
   
   Add all found results to the collection? (Y/N): is also pretty easy. If you know your results will be pretty specific, such as Metroid, you could choose Y, to have all results found added to your new created collection. However, if you wanted a bunch of Mario games, but want to be selective about them, you'd search Mario and then hit N. Instead of adding them all, each result will ask you to add it using Y or N.
- ![Step 02.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step02.png)
+ ![Step 02.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step02%20(2).png)
 
 6. Once you've completed your first run, it will ask you if you'd like to make another list. You won't have to setup your paths again, unless you restart the script.
 7. You will now have the files you need to setup custom collections on your device.
@@ -77,3 +77,18 @@ This process generates an XML file. I add this to the process so I can use a cus
 Once the XML files are created, they have to be placed on your device in a semi-convoluted way. Android protects files that are downloaded within it. This means I had to download Iconic on my computer, then rename it so I have an indicator to differentiate in ES-DE, and finally drop it in [Android Internal Storage Root Directory]/Android/data/or.es_de.frontedn/files/themes/[customthemedirectory]/_inc/systems/metadata-global/. This will show the correct metadata on the main menu of ES-DE once you refresh or reload.
 
 You can then add Wheel/Marquee/Icon/Carousel art to /_inc/systems/carousel-icons/ in .webp format. I've found changing .PNG to .WEBP has been sufficient. You can add custom backgrounds by adding .webp files to the correct folder for your settings, ie Classic vs Modern vs Alternate. Regardless of what you choose for your images, their file names should match or XML file, case included. You also shouldn't have Batman-1.webp and Batman.webp in your directories as ES-DE won't load either, leaving you with generic place holder text.
+
+
+### Recommendations
+
+I have resisted Android devices for a long time. I hate setting them up. This tool was created as a part of series of steps to reduce the number of steps I ahve to take. First, don't be like old me. Be like new me, who also happens to be getting old. Go through your roms, and choose the ones you actually might play. Once that is done, scrape them. You can use your device to do it, or a tool like Skraper (https://www.skraper.net/). You will end up with a managable but still overwhelming library.
+
+You could do this on your computer or your Android device, but at this point, I would have 2 directories in the root of your storage device. One called ES-DE, with your ES-DE files, and one called ROMs, housing all of your roms in the correctly named folders for ES-DE.
+
+Now FeCC it and run FE-Collection Creator, pointing it at your ROMs folder, and your ES-DE/collections. Follow the instructions and create your collections. 
+
+Now make a backup of your ES-DE and ROMs folders so you can quickly drag and drop them into new SD cards for future use, like a tidy little time capsule of fun and convenience. If you are okay with unthemed collections, go enjoy your newly organized games and collections!
+
+If you want to theme those collections, good luck to you. It will require some invesigation into how your desired theme works, to theme those appropriately. I'd love to say there is an easy way to do this, but this is the most challenging and time consuming bit. Luckily, if you save those paths and files with your ES-DE data, and Roms, you can certainly drag and drop those in the future too.
+
+Good luck and enjoy everyone!
