@@ -41,7 +41,7 @@ Pre-requisites and Setup:
   Enter the name for the output file (without extension). Example: Tecmo Super Bowl. This is the name of the .cfg that will be generated. The script will automatically prepend "custom-" to your choice. Its recommended you keep track of this entry (case sensitive) if you intend adding custom artwork later.
   
   Add all found results to the collection? (Y/N): is also pretty easy. If you know your results will be pretty specific, such as Metroid, you could choose Y, to have all results found added to your new created collection. However, if you wanted a bunch of Mario games, but want to be selective about them, you'd search Mario and then hit N. Instead of adding them all, each result will ask you to add it using Y or N.
- ![Step 02.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step02.png)
+ ![Step 02.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step02%20(2).png)
 
 6. Once you've completed your first run, it will ask you if you'd like to make another list. You won't have to setup your paths again, unless you restart the script.
 7. You will now have the files you need to setup custom collections on your device.
