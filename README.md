@@ -26,16 +26,25 @@ Pre-requisites and Setup:
 
 1. Open Terminal or Powershell on your computer and navigate to where your stored your downloaded script.
 2. Enter .\FE-CollectionCreator.ps1 into the window and hit Enter or Return
-3. The script will now run and begin to ask you for a series of inputs.
-   The first is: Enter the top-level ROM directory to search. Example: E:\ROMs. This means if your roms are organized correctly you would enter something like E:\Roms to scan things like E:\Roms\nes, E:\Roms\gb, etc.
-  Next Enter the output directory for your collection .cfg files. Example: E:\ES-DE\collections. This is where the .cfgs will be created that ES-DE will use. It's also where the paths will be added once the files are created.*
-  Enter the directory to save the XML files. Example: E:\themes_tempoary\_inc\systems\metadata-global\: is next. I reference this path, because it will help make things look pretty later. It's a bit beyond the scope of this tool, but but creating this XML, and later dropping it into a theme, your collection will be more polished in the end.**
-  Enter the search term. This one is pretty straightforward. If you want a Mario collection, search Mario. If you want a Super Mario collection search Super Mario. Search will work the same as it would in Windows Explorer.
-  Enter the name for the output file (without extension). Example: Tecmo Super Bowl. This is the name of the .cfg that will be generated. The script will automatically prepend "custom-" to your choice. Its recommended you keep track of this entry (case sensitive) if you intend adding custom artwork later.
-  Add all found results to the collection? (Y/N): is also pretty easy. If you know your results will be pretty specific, such as Metroid, you could choose Y, to have all results found added to your new created collection. However, if you wanted a bunch of Mario games, but want to be selective about them, you'd search Mario and then hit N. Instead of adding them all, each result will ask you to add it using Y or N.
+   ![Step 01.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step01.png)
 
-5. Once you've completed your first run, it will ask you if you'd like to make another list. You won't have to setup your paths again, unless you restart the script.
-6. You will now have the files you need to setup custom collections on your device.
+3. The script will now run and begin to ask you for a series of inputs.
+4. 
+   The first is: Enter the top-level ROM directory to search. Example: E:\ROMs. This means if your roms are organized correctly you would enter something like E:\Roms to scan things like E:\Roms\nes, E:\Roms\gb, etc.
+   
+  Next Enter the output directory for your collection .cfg files. Example: E:\ES-DE\collections. This is where the .cfgs will be created that ES-DE will use. It's also where the paths will be added once the files are created.*
+  
+  Enter the directory to save the XML files. Example: E:\themes_tempoary\_inc\systems\metadata-global\: is next. I reference this path, because it will help make things look pretty later. It's a bit beyond the scope of this tool, but but creating this XML, and later dropping it into a theme, your collection will be more polished in the end.**
+  
+  Enter the search term. This one is pretty straightforward. If you want a Mario collection, search Mario. If you want a Super Mario collection search Super Mario. Search will work the same as it would in Windows Explorer.
+  
+  Enter the name for the output file (without extension). Example: Tecmo Super Bowl. This is the name of the .cfg that will be generated. The script will automatically prepend "custom-" to your choice. Its recommended you keep track of this entry (case sensitive) if you intend adding custom artwork later.
+  
+  Add all found results to the collection? (Y/N): is also pretty easy. If you know your results will be pretty specific, such as Metroid, you could choose Y, to have all results found added to your new created collection. However, if you wanted a bunch of Mario games, but want to be selective about them, you'd search Mario and then hit N. Instead of adding them all, each result will ask you to add it using Y or N.
+ ![Step 02.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step02.png)
+
+6. Once you've completed your first run, it will ask you if you'd like to make another list. You won't have to setup your paths again, unless you restart the script.
+7. You will now have the files you need to setup custom collections on your device.
   If you chose directories you use on your device, you are nearly done. Just press Start in ES-DE, go to Game Collection Settings, select Custom Game Collections, toggle on your newly created custom Collections, back out and let ES-DE refresh. You should now see your collections. Enjoy!
 
   If you setup your directories to be somewhere else, you will need to copy the exported files to the correct locations on your device. You will need to copy your .cfg files to ES-DE/Collections/. The ES-DE folder will be where you chose to setup your device during initial setup. On Android this can be your SD Card, but an initial folder will be setup called ES-DE on your device's internal storage.  Once you've put them in place, from ES-DE, press Start, go to Game Collection Settings, select Custom Game Collections, toggle on your newly created custom Collections, back out and let ES-DE refresh. You should now see your collections. Enjoy!
@@ -57,6 +66,7 @@ For example: %ROMPATH%/mame/1943.zip
 
 Save your file and test, or copy it to your device and test.
 
+ ![Step 03.](https://github.com/Y2J1245/FE-CollectionCreator/blob/main/Images/FeCC-Step03.png)
 
 ### Theming & Bonus Info
 
